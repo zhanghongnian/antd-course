@@ -1,4 +1,4 @@
 node_modules
 dist
 .umi
-.yarn.lock
+yarn.lock
