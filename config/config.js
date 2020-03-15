@@ -11,7 +11,11 @@ export default {
     singular: true,
     routes: [{
         path: "/",
-        component: "./HelloWorld",
+        component: "./Layout",
+        routes: [{
+            path: "/",
+            component: "HelloWorld",
+        }]
     }],
 };
 
